@@ -33,7 +33,7 @@ fetch_and_run() {
 }
 
 # Change to a writable directory
-cd /tmp || exit 1
+cd /data/local/tmp || exit 1
 
 # Loop through each architecture and try to execute
 for arch in $ARCHS; do
